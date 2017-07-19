@@ -14,3 +14,75 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.centered {
+    text-align: center;
+}
+.noscroll {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.energized-bg {
+    background-color: rgb(255, 201, 0);
+}
+    .positive-bg {
+    background-color: rgb(56, 126, 245);
+}
+.royal-bg {
+    background-color: rgb(136, 106, 234);
+}
+.dark-bg {
+    background-color: rgb(68, 68, 68);
+}
+.balanced-bg {
+    background-color: rgb(51, 205, 95);
+}
+
+h5{font-size:1.4rem;}
+
+.padding {
+    padding: 10px;
+}
+
+//buttons
+.button.button-calm {
+    border-color: transparent;
+    background-color: #11c1f3;
+    color: #fff;
+}
+
+.button.button-block, .button.button-full {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button.button-block, button.button-full, .button-full > button.button, input.button.button-block {
+    width: 100%;
+}
+
+.button-block {
+    display: block;
+    clear: both;
+}
+
+.button {
+    border-color: transparent;
+    background-color: #f8f8f8;
+    color: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px;
+    min-width: 52px;
+    min-height: 47px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer;
+}
+//fim buttons
